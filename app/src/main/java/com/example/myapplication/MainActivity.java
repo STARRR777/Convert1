@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         for ( int i=0; i < binary_number.length(); i++) {
             if (binary_number.charAt(i) == '1'){
-                now++
+                now++;
             }
             else {
                 now = 0;
